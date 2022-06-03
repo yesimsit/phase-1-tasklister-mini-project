@@ -21,6 +21,10 @@ deleteButton.innerHTML="DONE"
 deleteButton.style.height="20px";
 deleteButton.style.background="red";
 deleteButton.style.borderRadius="5px";
+deleteButton.style.marginLeft="10px";
+
+
+
 
 
 toDoList.appendChild(deleteButton)
@@ -30,6 +34,6 @@ deleteButton.addEventListener("click", reset)
 function reset (event){
   event.preventDefault();
   this.parentElement.remove()
-  this.parentElement.remove()
+  
 
 }
